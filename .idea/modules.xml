@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/canvas-lti.iml" filepath="$PROJECT_DIR$/.idea/canvas-lti.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../courses/.idea/courses.iml" filepath="$PROJECT_DIR$/../courses/.idea/courses.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../editor/.idea/editor.nuidev.nl.iml" filepath="$PROJECT_DIR$/../editor/.idea/editor.nuidev.nl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/roc-lti.iml" filepath="$PROJECT_DIR$/.idea/roc-lti.iml" />
     </modules>
   </component>
 </project>

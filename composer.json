@@ -1,10 +1,10 @@
 {
-    "name": "hurah/canvas-lti",
+    "name": "hurah/roc-lti",
     "description": "A small helper system to integrate external tools into Canvas",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Hurah\\CanvasLti\\": "src/"
+            "Hurah\\RocLti\\": "src/"
         }
     },
     "authors": [
