@@ -1,0 +1,31 @@
+<style>
+/* This is a comment */
+
+/* CSS rule for all p elements */
+p {
+    color: green;
+    font-size: 18px;
+}
+
+/* CSS rule for elements with class 'important' */
+.important {
+    font-weight: bold;
+    color: red;
+}
+
+/* CSS rule for element with id 'unique' */
+#unique {
+    font-size: 24px;
+    color: blue;
+}
+
+/* Nesting selectors (this affects any 'p' elements within 'div' elements) */
+div p {
+    color: purple;
+}
+
+/* Pseudo-classes (change link color on hover) */
+a:hover {
+    color: orange;
+}
+</style>

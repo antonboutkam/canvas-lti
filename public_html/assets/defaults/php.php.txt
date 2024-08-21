@@ -1,0 +1,36 @@
+<?php
+// This is a single-line comment
+
+/* This is a multi-line comment
+   that spans multiple lines */
+
+// Variables in PHP start with a $ symbol
+$myVariable = "Hello, world!";
+
+// Echo command is used for output
+echo $myVariable;
+
+// Arrays
+$myArray = array("Item1", "Item2", "Item3");
+
+// For loop
+for($i = 0; $i < count($myArray); $i++) {
+    echo $myArray[$i];
+}
+
+// Associative array (similar to a map or dictionary in other languages)
+$myAssociativeArray = array("key1" => "value1", "key2" => "value2");
+
+// Foreach loop
+foreach($myAssociativeArray as $key => $value) {
+    echo "Key: " . $key . ", Value: " . $value;
+}
+
+// Functions
+function myFunction($param) {
+    echo "Parameter: " . $param;
+}
+
+// Calling function
+myFunction("Test parameter");
+?>

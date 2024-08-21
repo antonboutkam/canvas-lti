@@ -1,0 +1,33 @@
+# This is a single-line comment
+
+"""
+This is a multi-line comment
+that spans multiple lines
+"""
+
+# Variables in Python
+my_var = "Hello, world!"
+
+# Print function is used for output
+print(my_var)
+
+# List
+my_list = ["Item1", "Item2", "Item3"]
+
+# For loop
+for i in my_list:
+    print(i)
+
+# Dictionary (similar to associative arrays in PHP)
+my_dict = {"key1" : "value1", "key2" : "value2"}
+
+# Print the dictionary key-value pairs
+for key, value in my_dict.items():
+    print("Key: ", key, ", Value: ", value)
+
+# Functions in Python
+def my_function(param):
+    print("Parameter: ", param)
+
+# Calling function
+my_function("Test parameter")

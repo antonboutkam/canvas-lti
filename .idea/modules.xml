@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/canvas-lti.iml" filepath="$PROJECT_DIR$/.idea/canvas-lti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../courses/.idea/courses.iml" filepath="$PROJECT_DIR$/../courses/.idea/courses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../editor/.idea/editor.nuidev.nl.iml" filepath="$PROJECT_DIR$/../editor/.idea/editor.nuidev.nl.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<cartridge_basiclti_link xmlns="http://www.imsglobal.org/xsd/imslticc_v1p0" xmlns:blti="http://www.imsglobal.org/xsd/imsbasiclti_v1p0" xmlns:lticm="http://www.imsglobal.org/xsd/imslticm_v1p0" xmlns:lticp="http://www.imsglobal.org/xsd/imslticp_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imslticc_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticc_v1p0.xsd http://www.imsglobal.org/xsd/imsbasiclti_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imsbasiclti_v1p0p1.xsd http://www.imsglobal.org/xsd/imslticm_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticm_v1p0.xsd http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd">
+    <blti:title>Editor tool</blti:title>
+    <blti:description>Helper to redirect users to the embedded editor.</blti:description>
+    <blti:launch_url>https://editor.devroc.nl/launch.php</blti:launch_url>
+    <blti:icon>https://canvas-lti.devroc.nl/assets/img/editor.svg</blti:icon>
+    <blti:extensions platform="canvas.instructure.com">
+        <lticm:property name="privacy_level">anonymous</lticm:property>
+        <lticm:property name="tool_id">canvas-lti.devroc.nl</lticm:property>
+        <lticm:property name="domain">canvas-lti.devroc.nl</lticm:property>
+        <!--  This prevents it from showing up in Link Selection placements, eg in modules/assignments  -->
+        <lticm:property name="not_selectable">false</lticm:property>
+        <lticm:options name="custom_fields">
+            <lticm:property name="url">https://editor.devroc.nl/editor.php?language=html</lticm:property>
+            <lticm:property name="new_tab">false</lticm:property>
+            <lticm:property name="Context.id">$Context.id</lticm:property>
+            <lticm:property name="Context.sourcedId">$Context.sourcedId</lticm:property>
+            <lticm:property name="Canvas.account.id">$Canvas.account.id</lticm:property>
+            <lticm:property name="Canvas.account.name">$Canvas.account.name</lticm:property>
+            <lticm:property name="Canvas.account.sisSourceId">$Canvas.account.sisSourceId</lticm:property>
+            <lticm:property name="Canvas.course.id">$Canvas.course.id</lticm:property>
+            <lticm:property name="Canvas.course.name">$Canvas.course.name</lticm:property>
+            <lticm:property name="Canvas.course.sisSourceId">$Canvas.course.sisSourceId</lticm:property>
+            <lticm:property name="com.instructure.Course.integrationId">$com.instructure.Course.integrationId</lticm:property>
+            <lticm:property name="Canvas.user.id">$Canvas.user.id</lticm:property>
+            <lticm:property name="Canvas.user.loginId">$Canvas.user.loginId</lticm:property>
+            <lticm:property name="Canvas.user.sisSourceId">$Canvas.user.sisSourceId</lticm:property>
+            <lticm:property name="Canvas.user.sisIntegrationId">$Canvas.user.sisIntegrationId</lticm:property>
+        </lticm:options>
+        <lticm:options name="account_navigation">
+            <lticm:property name="enabled">false</lticm:property>
+        </lticm:options>
+        <lticm:options name="course_navigation">
+            <lticm:property name="enabled">false</lticm:property>
+        </lticm:options>
+        <lticm:options name="user_navigation">
+            <lticm:property name="enabled">false</lticm:property>
+        </lticm:options>
+        <!--  These are present so you can enable them in Canvas if you wish  -->
+        <lticm:options name="course_home_sub_navigation">
+            <lticm:property name="enabled">false</lticm:property>
+        </lticm:options>
+        <lticm:options name="course_settings_sub_navigation">
+            <lticm:property name="enabled">false</lticm:property>
+        </lticm:options>
+    </blti:extensions>
+</cartridge_basiclti_link>

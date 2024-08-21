@@ -1,0 +1,38 @@
+// This is a single-line comment
+
+/* This is a multi-line comment
+   that spans multiple lines */
+
+// Variables in JavaScript can be declared using var, let or const
+var myVar = "Hello, world!";
+let myLet = "Hello, again!";
+const MY_CONST = "Hello, for the last time!";
+
+// Logging to console
+console.log(myVar);
+console.log(myLet);
+console.log(MY_CONST);
+
+// Arrays
+let myArray = ["Item1", "Item2", "Item3"];
+
+// For loop
+for(let i = 0; i < myArray.length; i++) {
+    console.log(myArray[i]);
+}
+
+// Associative array (known as an object in JavaScript)
+let myAssociativeArray = {"key1": "value1", "key2": "value2"};
+
+// For-in loop for objects
+for(let key in myAssociativeArray) {
+    console.log("Key: " + key + ", Value: " + myAssociativeArray[key]);
+}
+
+// Functions
+function myFunction(param) {
+    console.log("Parameter: " + param);
+}
+
+// Calling function
+myFunction("Test parameter");
